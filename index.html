@@ -5,6 +5,15 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Salad</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    
+    <style>
+      html {
+        overflow: hidden;
+      }
+    </style>
+    
+    
+    
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
@@ -14,7 +23,7 @@
   </head>
   <body>
     <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div id="unityContainer" style="width: 100%; height: 100%"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
